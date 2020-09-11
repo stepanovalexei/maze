@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9cad27b5-8268-4897-937f-0fedce606127" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0083973-04F8-4E50-A333-74C87AE48947/b0/cc5fa4a1/GameObjectDestroyExtension.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/ViewListeners/CreateEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/IView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Entity/CreateEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Entity/EntityExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ComponentRegistrators/IViewComponentRegistrator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ComponentRegistrators/RigidbodyRegistrator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ComponentRegistrators/TileMapColliderRegistrator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/View/Extensions/GameObjectExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/ComponentRegistrators/IViewComponentRegistrator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Player/PlayerAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/FunctionalExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ViewListeners/SelfInitializedView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameplayFeature.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/GameplayFeature.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Input/EmitInputSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/VectorExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/GameplayFeature.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Game.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/ITimeService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/Services.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/ServiceRegistration/RegisterServiceSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/ServiceRegistration/ServiceRegistrationSystems.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/ComponentRegistrators/RigidbodyRegistrator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/ComponentRegistrators/CharacterControllerRegistrator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Player/Maps.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Input/RegisterInputsSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Player/MovePlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generated/Game/Components/GameMapComponent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Common/TimerExecuteSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Common/TimerExecute.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/FeatureExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Extensions/EnumerableExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bootstrap.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Map/SpawnCoins.EndlessCoinSpawnTimer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Map/EndlessCoinSpawnTimer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Generated/Game/Systems/RemoveSpawnCoinGameSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Map/StopSpawningCoinsIfLimitIsReached.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Player/Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Map/SpawnCoins.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/StandaloneInputService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Player/Coin.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/UnityView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ViewListeners/DestructedListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/UI/Score.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/MazeFeature.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Components.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/EntityBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Map/PickCoin.cs" />
+        <option value="$PROJECT_DIR$/Jenny.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hJioZMeiROAcHgugZESRfLWQsv" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34993774" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30012453" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.build.unityPlugin" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected=".NET Executable.Jenny gen">
+    <configuration name="Jenny gen" type="RunExe" factoryName=".NET Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Jenny/Jenny.exe" />
+      <option name="PROGRAM_PARAMETERS" value="client gen" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="selectedOptions">
+        <set />
+      </option>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Executable.Jenny gen" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor" />
+      <item itemvalue="Attach to Unity Editor.Attach to Unity Editor &amp; Play" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="294" y="160" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599765391676">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="294" y="160" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1599765391676" />
+    <state x="595" y="208" key="#xdebugger.evaluate" timestamp="1599765471281">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="595" y="208" key="#xdebugger.evaluate/0.0.1680.1010@0.0.1680.1010" timestamp="1599765471281" />
+    <state x="598" y="365" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1599751971500">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="598" y="365" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1680.1010@0.0.1680.1010" timestamp="1599751971500" />
+    <state width="413" height="466" key="DebuggerActiveHint" timestamp="1599838484652">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="413" height="466" key="DebuggerActiveHint/0.0.1680.1010@0.0.1680.1010" timestamp="1599838484652" />
+    <state x="570" y="426" key="GitCloneDialog" timestamp="1599767191357">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="570" y="426" key="GitCloneDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1599767191357" />
+    <state width="1637" height="150" key="GridCell.Tab.0.bottom" timestamp="1599838609918">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609918" />
+    <state width="1637" height="150" key="GridCell.Tab.0.center" timestamp="1599838609918">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609918" />
+    <state width="1637" height="150" key="GridCell.Tab.0.left" timestamp="1599838609918">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609918" />
+    <state width="1637" height="150" key="GridCell.Tab.0.right" timestamp="1599838609918">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609918" />
+    <state width="1637" height="150" key="GridCell.Tab.1.bottom" timestamp="1599838609918">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609918" />
+    <state width="1637" height="150" key="GridCell.Tab.1.center" timestamp="1599838609918">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609918" />
+    <state width="1637" height="150" key="GridCell.Tab.1.left" timestamp="1599838609918">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609918" />
+    <state width="1637" height="150" key="GridCell.Tab.1.right" timestamp="1599838609918">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609918" />
+    <state width="1637" height="150" key="GridCell.Tab.2.bottom" timestamp="1599838609919">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.2.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609919" />
+    <state width="1637" height="150" key="GridCell.Tab.2.center" timestamp="1599838609918">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.2.center/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609918" />
+    <state width="1637" height="150" key="GridCell.Tab.2.left" timestamp="1599838609918">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.2.left/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609918" />
+    <state width="1637" height="150" key="GridCell.Tab.2.right" timestamp="1599838609918">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.2.right/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609918" />
+    <state width="1637" height="150" key="GridCell.Tab.3.bottom" timestamp="1599838609919">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.3.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609919" />
+    <state width="1637" height="150" key="GridCell.Tab.3.center" timestamp="1599838609919">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.3.center/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609919" />
+    <state width="1637" height="150" key="GridCell.Tab.3.left" timestamp="1599838609919">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.3.left/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609919" />
+    <state width="1637" height="150" key="GridCell.Tab.3.right" timestamp="1599838609919">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="150" key="GridCell.Tab.3.right/0.0.1680.1010@0.0.1680.1010" timestamp="1599838609919" />
+    <state x="432" y="237" key="Rider.ProjectTemplateDialog.Size" timestamp="1599777279657">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="432" y="237" key="Rider.ProjectTemplateDialog.Size/0.0.1680.1010@0.0.1680.1010" timestamp="1599777279657" />
+    <state x="550" y="205" key="RiderGenerateDialog" timestamp="1599820170769">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="550" y="205" key="RiderGenerateDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1599820170769" />
+    <state x="341" y="150" key="SettingsEditor" timestamp="1599774265298">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="341" y="150" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1599774265298" />
+    <state width="522" height="452" key="SwitcherDM" timestamp="1599772634619">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="522" height="452" key="SwitcherDM/0.0.1680.1010@0.0.1680.1010" timestamp="1599772634619" />
+    <state x="446" y="115" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599812546921">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="446" y="115" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1010@0.0.1680.1010" timestamp="1599812546921" />
+    <state x="383" y="234" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1599761991932">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="383" y="234" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1010@0.0.1680.1010" timestamp="1599761991932" />
+    <state x="518" y="238" width="644" height="534" key="find.popup" timestamp="1599819366686">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="518" y="238" width="644" height="534" key="find.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1599819366686" />
+    <state x="496" y="233" key="run.anything.popup" timestamp="1599756193722">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="496" y="233" key="run.anything.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1599756193722" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1599838566108">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1599838566108" />
+  </component>
+</project>

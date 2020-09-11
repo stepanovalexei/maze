@@ -1,0 +1,5 @@
+﻿namespace DesperateDevs {
+
+    class Compile {
+    }
+}
