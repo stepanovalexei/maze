@@ -1,7 +1,5 @@
 ﻿// using Infrastructure;
 
-using System;
-using Services;
 using UnityEngine;
 
 namespace Core

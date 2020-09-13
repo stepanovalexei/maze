@@ -1,5 +1,4 @@
 ﻿using TMPro;
-using UnityEngine.UI;
 
 namespace Core.UI
 {
@@ -10,7 +9,9 @@ namespace Core.UI
         protected override void OnStart()
         {
             base.OnStart();
-            Entity.AddScore(0);
+            Entity
+                .AddScore(0)
+                .AddText(text);
         }
     }
 }

@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using Entity;
-using Extensions;
+﻿using Extensions;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 

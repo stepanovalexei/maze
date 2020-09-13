@@ -2,7 +2,7 @@
 
 namespace Components.ComponentRegistrators
 {
-    public class CharacterControllerRegistrator : MonoBehaviour, IViewComponentRegistrator
+    public class CharacterControllerRegistrator : MonoBehaviour, IComponentRegistrator
     {
         public CharacterController CharacterController;
     

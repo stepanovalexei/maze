@@ -1,5 +1,4 @@
-﻿using Components;
-using Extensions;
+﻿using Extensions;
 
 namespace Core.Player
 {

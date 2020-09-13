@@ -4,14 +4,14 @@ using UnityEngine;
 
 namespace Systems.Gameplay.Map
 {
-    public class SpawnCoins : IExecuteSystem
+    public class InstantiateCoin : IExecuteSystem
     {
         private readonly GameContext game;
         private readonly IGroup<GameEntity> maps;
         private readonly IGroup<GameEntity> grounds;
         private readonly GameObject coinPrefab;
 
-        public SpawnCoins(GameContext game, GameObject coinPrefab)
+        public InstantiateCoin(GameContext game, GameObject coinPrefab)
         {
             this.game = game;
             this.coinPrefab = coinPrefab;

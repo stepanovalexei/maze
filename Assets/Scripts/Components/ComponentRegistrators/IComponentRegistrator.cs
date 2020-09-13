@@ -1,6 +1,6 @@
 ﻿namespace Components.ComponentRegistrators
 {
-    public interface IViewComponentRegistrator
+    public interface IComponentRegistrator
     {
         void Register(GameEntity entity);
     }

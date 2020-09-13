@@ -15,8 +15,6 @@ namespace ViewListeners
         {
             this.entity = (GameEntity) entity;
             this.entity.AddDestructedListener(this);
-
-            OnDestructed(this.entity);
         }
 
         public void UnregisterListeners(IEntity with) =>
@@ -28,8 +26,8 @@ namespace ViewListeners
         private Action<DestructedListener> Cleanup(GameEntity entity) =>
             listener =>
             {
-                var controller = gameObject.GetComponent<IView>();
-                controller.Destroy();
+                var view = gameObject.GetComponent<IView>();
+                view.Destroy();
             };
     }
 }

@@ -3,7 +3,6 @@ using Systems.Gameplay.Map;
 using Systems.Gameplay.Player;
 using Systems.ServiceRegistration;
 using Core.Prefabs;
-using Entitas;
 using Extensions;
 
 namespace Systems.Gameplay
@@ -19,6 +18,7 @@ namespace Systems.Gameplay
             Add(new StatisticsFeature(game, meta));
 
             Add(new GameCleanupSystems(Contexts.sharedInstance));
+            Add(new GameEventSystems(Contexts.sharedInstance));
         }
     }
 
@@ -28,7 +28,7 @@ namespace Systems.Gameplay
         {
             this.AddExecuteSystems
             (
-                // new CountScore(game, meta)
+                new UpdateScore(game)
             );
         }
     }
@@ -40,9 +40,9 @@ namespace Systems.Gameplay
             this.AddExecuteSystems
             (
                 new MovePlayer(game, input),
-                new EndlessCoinSpawnTimer(game, 5f),
-                new SpawnCoins(game, prefabs.Coin),
+                new SpawnCoinsWithInterval(game, 5f),
                 new StopSpawningCoinsIfLimitIsReached(game),
+                new InstantiateCoin(game, prefabs.Coin),
                 new PickCoin(game, meta)
             );
         }

@@ -3,7 +3,7 @@ using UnityEngine.Tilemaps;
 
 namespace Components.ComponentRegistrators
 {
-    public class TileMapRegistrator : MonoBehaviour, IViewComponentRegistrator
+    public class TileMapRegistrator : MonoBehaviour, IComponentRegistrator
     {
         public Tilemap Tilemap;
     

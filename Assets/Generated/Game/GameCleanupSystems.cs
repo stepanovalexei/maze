@@ -12,5 +12,6 @@ public sealed class GameCleanupSystems : Feature {
         Add(new RemoveSpawnCoinGameSystem(contexts));
         Add(new RemoveChaseThePlayerGameSystem(contexts));
         Add(new DestroyDeadGameSystem(contexts));
+        Add(new DestroyDestructedGameSystem(contexts));
     }
 }

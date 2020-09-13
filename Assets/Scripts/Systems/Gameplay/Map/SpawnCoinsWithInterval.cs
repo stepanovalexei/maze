@@ -2,13 +2,13 @@
 
 namespace Systems.Gameplay.Map
 {
-        public class EndlessCoinSpawnTimer : IExecuteSystem
+        public class SpawnCoinsWithInterval : IExecuteSystem
         {
             private readonly GameContext game;
             private readonly float executeInterval;
             private float timeSinceLastExecute = 0;
 
-            public EndlessCoinSpawnTimer(GameContext game, float periodInSeconds)
+            public SpawnCoinsWithInterval(GameContext game, float periodInSeconds)
             {
                 this.game = game;
                 executeInterval = periodInSeconds;

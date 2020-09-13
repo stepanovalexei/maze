@@ -35,7 +35,7 @@ namespace Systems.Gameplay.Player
             }
         }
 
-        private void Move(GameEntity player, Vector2 @in)
+        private static void Move(GameEntity player, Vector2 @in)
         {
             player.isMoving = true;
             player.rigidbody.value.velocity = new Vector2(@in.x, @in.y) * Speed;

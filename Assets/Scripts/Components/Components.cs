@@ -35,7 +35,7 @@ namespace Components
     [FlagPrefix("")]public class SpawnsCoins : IComponent {}
     [FlagPrefix("")][Cleanup(RemoveComponent)]public class SpawnCoin : IComponent {}
     public class MaxCoinCount : IComponent { public int Value; }
-    public class Picked : IComponent {}
+    [Cleanup(RemoveComponent)]public class Picked : IComponent {}
     
     public class Zombie : IComponent {}
     public class Mummy : IComponent {}
@@ -61,7 +61,7 @@ namespace Components
     [Event(Self)] public class Moving : IComponent{ }
     [Event(Self)] public class Direction : IComponent { public float Value; }
     [Event(Self)] public class Position : IComponent { public Vector3 Value; }
-    [Event(Self)] public class Destructed : IComponent { }
+    [Event(Self)][Cleanup(DestroyEntity)] public class Destructed : IComponent { }
 
     
     [Game][Unique] public class Score : IComponent { public int Value; }

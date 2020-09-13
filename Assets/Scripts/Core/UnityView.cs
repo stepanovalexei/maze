@@ -40,7 +40,7 @@ namespace Core
 
         private void RegisterViewComponents()
         {
-            foreach (var registrator in GetComponents<IViewComponentRegistrator>())
+            foreach (var registrator in GetComponents<IComponentRegistrator>())
                 registrator.Register(Entity);
         }
 

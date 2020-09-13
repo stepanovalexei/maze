@@ -93,6 +93,7 @@
             <e p="GameMatcher.cs" t="Include" />
             <e p="Systems" t="Include">
               <e p="DestroyDeadGameSystem.cs" t="Include" />
+              <e p="DestroyDestructedGameSystem.cs" t="Include" />
               <e p="RemoveChaseThePlayerGameSystem.cs" t="Include" />
               <e p="RemoveSpawnCoinGameSystem.cs" t="Include" />
             </e>
@@ -132,7 +133,7 @@
           <e p="Components" t="Include">
             <e p="ComponentRegistrators" t="Include">
               <e p="CharacterControllerRegistrator.cs" t="Include" />
-              <e p="IViewComponentRegistrator.cs" t="Include" />
+              <e p="IComponentRegistrator.cs" t="Include" />
               <e p="RigidbodyRegistrator.cs" t="Include" />
               <e p="TileMapColliderRegistrator.cs" t="Include" />
               <e p="TileMapRegistrator.cs" t="Include" />
@@ -192,10 +193,11 @@
                 <e p="RegisterInputsSystem.cs" t="Include" />
               </e>
               <e p="Map" t="Include">
-                <e p="EndlessCoinSpawnTimer.cs" t="Include" />
+                <e p="InstantiateCoin.cs" t="Include" />
                 <e p="PickCoin.cs" t="Include" />
-                <e p="SpawnCoins.cs" t="Include" />
+                <e p="SpawnCoinsWithInterval.cs" t="Include" />
                 <e p="StopSpawningCoinsIfLimitIsReached.cs" t="Include" />
+                <e p="UpdateScore.cs" t="Include" />
               </e>
               <e p="MazeFeature.cs" t="Include" />
               <e p="Player" t="Include">
