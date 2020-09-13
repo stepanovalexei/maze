@@ -241,7 +241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 137.3}
+  m_AnchoredPosition: {x: 0, y: 152.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &587734081
@@ -262,7 +262,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 0
+  m_text: 'Score: 0'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -331,10 +331,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 587734081}
-    characterCount: 1
+    characterCount: 8
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -655,6 +655,7 @@ Transform:
   m_Children:
   - {fileID: 760992478}
   - {fileID: 1934024229}
+  - {fileID: 1727725671}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -763,14 +764,14 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1085311657
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1024377115}
     m_Modifications:
     - target: {fileID: 2093433936861064300, guid: a0d9ad7ec0fe19b448020e03aa1f848f,
         type: 3}
@@ -780,12 +781,12 @@ PrefabInstance:
     - target: {fileID: 2093433936861064301, guid: a0d9ad7ec0fe19b448020e03aa1f848f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.39
+      value: 5.22
       objectReference: {fileID: 0}
     - target: {fileID: 2093433936861064301, guid: a0d9ad7ec0fe19b448020e03aa1f848f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.11
+      value: 3.06
       objectReference: {fileID: 0}
     - target: {fileID: 2093433936861064301, guid: a0d9ad7ec0fe19b448020e03aa1f848f,
         type: 3}
@@ -795,17 +796,17 @@ PrefabInstance:
     - target: {fileID: 2093433936861064301, guid: a0d9ad7ec0fe19b448020e03aa1f848f,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2093433936861064301, guid: a0d9ad7ec0fe19b448020e03aa1f848f,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2093433936861064301, guid: a0d9ad7ec0fe19b448020e03aa1f848f,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2093433936861064301, guid: a0d9ad7ec0fe19b448020e03aa1f848f,
         type: 3}
@@ -815,7 +816,7 @@ PrefabInstance:
     - target: {fileID: 2093433936861064301, guid: a0d9ad7ec0fe19b448020e03aa1f848f,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2093433936861064301, guid: a0d9ad7ec0fe19b448020e03aa1f848f,
         type: 3}
@@ -852,7 +853,7 @@ GameObject:
   - component: {fileID: 1230437014}
   - component: {fileID: 1230437013}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: UI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -931,13 +932,19 @@ RectTransform:
   m_Children:
   - {fileID: 587734080}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!4 &1727725671 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2093433936861064301, guid: a0d9ad7ec0fe19b448020e03aa1f848f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1085311657}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1934024228
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,5 +1,6 @@
 ﻿using Systems.Gameplay;
 using Core.Prefabs;
+using Entity;
 using Services;
 using UnityEngine;
 
@@ -39,4 +40,13 @@ public class Bootstrap : MonoBehaviour
     }
 
     private void OnDestroy() => systems.Cleanup();
+    
+    private void OnApplicationQuit()
+    {
+        CreateEntity.Empty().isOnApplicationQuit = true;
+
+        systems.Execute();
+        systems.Cleanup();
+    }
+
 }

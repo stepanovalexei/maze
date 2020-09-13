@@ -19,5 +19,14 @@ namespace Extensions
             v = tmp;
             return v;
         }
+        
+        public static Vector3 SetX(this Vector3 v, float x)
+        {
+            var tmp = v;
+            tmp.x = x;
+            v = tmp;
+            return v;
+        }
     }
+    
 }

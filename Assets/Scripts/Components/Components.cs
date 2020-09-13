@@ -59,6 +59,7 @@ namespace Components
     public class BoxCollider2DComponent : IComponent { public BoxCollider2D value; }
   
     [Event(Self)] public class Moving : IComponent{ }
+    [Event(Self)] public class StoppedMoving : IComponent{ }
     [Event(Self)] public class Direction : IComponent { public float Value; }
     [Event(Self)] public class Position : IComponent { public Vector3 Value; }
     [Event(Self)][Cleanup(DestroyEntity)] public class Destructed : IComponent { }
@@ -70,4 +71,6 @@ namespace Components
     [Meta][Unique] public class SecondsSpent : IComponent { public float Value; }
     [Meta][Unique] public class TimeStarted : IComponent { public DateTime Value; }
     [Meta][Unique]public class ScoreView : IComponent {}
+    
+    public class OnApplicationQuit : IComponent {}
 }
