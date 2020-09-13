@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cad27b5-8268-4897-937f-0fedce606127" name="Default Changelist" comment="" />
+    <list default="true" id="9cad27b5-8268-4897-937f-0fedce606127" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Jenny.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Jenny.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0083973-04F8-4E50-A333-74C87AE48947/b0/cc5fa4a1/GameObjectDestroyExtension.cs" root0="SKIP_HIGHLIGHTING" />
@@ -78,6 +83,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34993774" />
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30012453" />
     <property name="Discover.Launch.Via.Unity" value="true" />
