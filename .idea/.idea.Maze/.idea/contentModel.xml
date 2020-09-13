@@ -64,6 +64,7 @@
             </e>
             <e p="Components.cs" t="Include" />
           </e>
+          <e p="Constants.cs" t="Include" />
           <e p="Core" t="Include">
             <e p="EntityBehaviour.cs" t="Include" />
             <e p="Player" t="Include">
@@ -205,6 +206,17 @@
               <e p="MetaContext.cs" t="Include" />
               <e p="MetaEntity.cs" t="Include" />
               <e p="MetaMatcher.cs" t="Include" />
+            </e>
+          </e>
+          <e p="MainMenu" t="Include">
+            <e p="Buttons" t="Include">
+              <e p="SaveNameButton.cs" t="Include" />
+              <e p="StartGameButton.cs" t="Include" />
+            </e>
+            <e p="Results" t="Include">
+              <e p="GameEndReason.cs" t="Include" />
+              <e p="Result.cs" t="Include" />
+              <e p="Results.cs" t="Include" />
             </e>
           </e>
           <e p="Services" t="Include">
