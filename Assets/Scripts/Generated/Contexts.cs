@@ -61,8 +61,7 @@ public partial class Contexts : Entitas.IContexts {
 public partial class Contexts {
 
     public const string Cell = "Cell";
-    public const string CollisionId = "CollisionId";
-    public const string Id = "Id";
+    public const string WorldPosition = "WorldPosition";
 
     [Entitas.CodeGeneration.Attributes.PostConstructor]
     public void InitializeEntityIndices() {
@@ -71,15 +70,10 @@ public partial class Contexts {
             game.GetGroup(GameMatcher.Cell),
             (e, c) => ((Components.Cell)c).Value));
 
-        game.AddEntityIndex(new Entitas.EntityIndex<GameEntity, int>(
-            CollisionId,
-            game.GetGroup(GameMatcher.CollisionId),
-            (e, c) => ((Components.CollisionId)c).Value));
-
-        game.AddEntityIndex(new Entitas.PrimaryEntityIndex<GameEntity, int>(
-            Id,
-            game.GetGroup(GameMatcher.Id),
-            (e, c) => ((Components.Id)c).Value));
+        game.AddEntityIndex(new Entitas.EntityIndex<GameEntity, UnityEngine.Vector3>(
+            WorldPosition,
+            game.GetGroup(GameMatcher.WorldPosition),
+            (e, c) => ((Components.WorldPosition)c).Value));
     }
 }
 
@@ -89,12 +83,8 @@ public static class ContextsExtensions {
         return ((Entitas.EntityIndex<GameEntity, UnityEngine.Vector3Int>)context.GetEntityIndex(Contexts.Cell)).GetEntities(Value);
     }
 
-    public static System.Collections.Generic.HashSet<GameEntity> GetEntitiesWithCollisionId(this GameContext context, int Value) {
-        return ((Entitas.EntityIndex<GameEntity, int>)context.GetEntityIndex(Contexts.CollisionId)).GetEntities(Value);
-    }
-
-    public static GameEntity GetEntityWithId(this GameContext context, int Value) {
-        return ((Entitas.PrimaryEntityIndex<GameEntity, int>)context.GetEntityIndex(Contexts.Id)).GetEntity(Value);
+    public static System.Collections.Generic.HashSet<GameEntity> GetEntitiesWithWorldPosition(this GameContext context, UnityEngine.Vector3 Value) {
+        return ((Entitas.EntityIndex<GameEntity, UnityEngine.Vector3>)context.GetEntityIndex(Contexts.WorldPosition)).GetEntities(Value);
     }
 }
 //------------------------------------------------------------------------------

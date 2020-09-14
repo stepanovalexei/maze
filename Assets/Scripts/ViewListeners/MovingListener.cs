@@ -1,4 +1,4 @@
-﻿using Core.Player;
+﻿using Core.PlayerObjects.Player;
 using Entitas;
 using Services;
 using UnityEngine;

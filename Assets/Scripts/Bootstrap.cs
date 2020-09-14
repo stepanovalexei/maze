@@ -1,13 +1,12 @@
-﻿using Systems.Gameplay;
-using Core.Prefabs;
+﻿using Systems;
 using Entity;
 using Services;
 using UnityEngine;
 
 public class Bootstrap : MonoBehaviour
 {
-    public Prefabs Prefabs;
-    
+    public Prefabs.Prefabs Prefabs;
+
     private Entitas.Systems systems;
     private Services.Services services;
 
@@ -17,7 +16,6 @@ public class Bootstrap : MonoBehaviour
         {
             Time = new UnityTimeService(),
             CollidingViewRegister = new UnityCollidingViewRegister(),
-            Identifiers = new GameIdentifierService(),
             InputService = new StandaloneInputService(),
         };
 
@@ -40,13 +38,13 @@ public class Bootstrap : MonoBehaviour
     }
 
     private void OnDestroy() => systems.Cleanup();
-    
+
     private void OnApplicationQuit()
     {
-        CreateEntity.Empty().isOnApplicationQuit = true;
+        CreateEntity.Empty()
+            .isOnApplicationQuit = true;
 
         systems.Execute();
         systems.Cleanup();
     }
-
 }

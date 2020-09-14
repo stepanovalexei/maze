@@ -2,13 +2,18 @@
 using System.Collections.Generic;
 using System.IO;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
 using UnityEngine;
+using ErrorEventArgs = Newtonsoft.Json.Serialization.ErrorEventArgs;
 
 namespace MainMenu.Results
 {
     [Serializable]
     public class Results
     {
+        private const string Format = "dd.MM.yyyy";
+        private static List<string> errors = new List<string>();
+        
         public List<Result> List;
 
         public static Results Get()
@@ -20,9 +25,18 @@ namespace MainMenu.Results
                 try
                 {
                     var resultsAsText = File.ReadAllText(FilePath());
-                    results = JsonConvert.DeserializeObject<Results>(resultsAsText);
+                    var dateTimeConverter = new IsoDateTimeConverter { DateTimeFormat = Format };
+                    results = JsonConvert.DeserializeObject<Results>(resultsAsText, new JsonSerializerSettings
+                    {
+                        Error = delegate(object sender, ErrorEventArgs args)
+                        {
+                            errors.Add(args.ErrorContext.Error.Message);
+                            args.ErrorContext.Handled = true;
+                        },
+                        Converters = { new IsoDateTimeConverter() }
+                    });
                 }
-                catch
+                catch (Exception ex)
                 {
                     Debug.LogError("Could not deserialize results.");
                 }

@@ -14,7 +14,7 @@ namespace MainMenu.Results
         public int EndReason;
 
         public DateTime DateConverted => DateTime.FromBinary(Date);
-        public GameEndReason ReasonConverted => (GameEndReason) EndReason;
+        public string ReasonConverted => ((GameEndReason) EndReason).ToString();
         public string TimeSpentFormatted
         {
             get
@@ -28,6 +28,9 @@ namespace MainMenu.Results
         {
             Date = date;
             PlayerName = playerName;
+        }
+        private Result()
+        {
         }
 
         public static Result New() =>

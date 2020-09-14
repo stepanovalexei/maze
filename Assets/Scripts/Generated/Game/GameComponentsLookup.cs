@@ -10,86 +10,98 @@ public static class GameComponentsLookup {
 
     public const int BoxCollider2D = 0;
     public const int Cell = 1;
-    public const int CharacterController = 2;
-    public const int ChaseThePlayer = 3;
-    public const int Chasing = 4;
-    public const int Coin = 5;
-    public const int CollidingViewRegister = 6;
-    public const int CollisionId = 7;
-    public const int Dead = 8;
-    public const int Destructed = 9;
-    public const int Direction = 10;
-    public const int Ground = 11;
-    public const int HasCoin = 12;
-    public const int Id = 13;
-    public const int Identifiers = 14;
-    public const int Map = 15;
+    public const int ChaseThePlayer = 2;
+    public const int Chasing = 3;
+    public const int Coin = 4;
+    public const int CollidingViewRegister = 5;
+    public const int CurrentPosition = 6;
+    public const int Dead = 7;
+    public const int Destructed = 8;
+    public const int Direction = 9;
+    public const int Enemy = 10;
+    public const int GameOver = 11;
+    public const int Ground = 12;
+    public const int HasCoin = 13;
+    public const int Map = 14;
+    public const int MapBuilded = 15;
     public const int MaxCoinCount = 16;
-    public const int Moving = 17;
-    public const int Mummy = 18;
-    public const int OnApplicationQuit = 19;
-    public const int Picked = 20;
-    public const int Player = 21;
-    public const int Position = 22;
-    public const int Rigidbody = 23;
-    public const int Score = 24;
-    public const int SpawnCoin = 25;
-    public const int SpawnsCoins = 26;
-    public const int StoppedMoving = 27;
-    public const int Target = 28;
-    public const int Text = 29;
-    public const int TilemapCollider2D = 30;
-    public const int Tilemap = 31;
-    public const int Time = 32;
-    public const int Transform = 33;
-    public const int ViewController = 34;
-    public const int Wall = 35;
-    public const int Zombie = 36;
-    public const int DestructedListener = 37;
-    public const int DirectionListener = 38;
-    public const int MovingListener = 39;
-    public const int PositionListener = 40;
-    public const int StoppedMovingListener = 41;
+    public const int MoveComplete = 17;
+    public const int Moving = 18;
+    public const int Mummy = 19;
+    public const int OnApplicationQuit = 20;
+    public const int Picked = 21;
+    public const int Player = 22;
+    public const int Position = 23;
+    public const int PreviousPosition = 24;
+    public const int Quit = 25;
+    public const int Rigidbody = 26;
+    public const int SaveResults = 27;
+    public const int Score = 28;
+    public const int SpawnCoin = 29;
+    public const int SpawnMummy = 30;
+    public const int SpawnsCoins = 31;
+    public const int SpawnZombie = 32;
+    public const int StoppedMoving = 33;
+    public const int Target = 34;
+    public const int Text = 35;
+    public const int Tilemap = 36;
+    public const int Time = 37;
+    public const int Transform = 38;
+    public const int WalkSpeed = 39;
+    public const int Wall = 40;
+    public const int WorldPosition = 41;
+    public const int Zombie = 42;
+    public const int DestructedListener = 43;
+    public const int DirectionListener = 44;
+    public const int MovingListener = 45;
+    public const int PositionListener = 46;
+    public const int StoppedMovingListener = 47;
 
-    public const int TotalComponents = 42;
+    public const int TotalComponents = 48;
 
     public static readonly string[] componentNames = {
         "BoxCollider2D",
         "Cell",
-        "CharacterController",
         "ChaseThePlayer",
         "Chasing",
         "Coin",
         "CollidingViewRegister",
-        "CollisionId",
+        "CurrentPosition",
         "Dead",
         "Destructed",
         "Direction",
+        "Enemy",
+        "GameOver",
         "Ground",
         "HasCoin",
-        "Id",
-        "Identifiers",
         "Map",
+        "MapBuilded",
         "MaxCoinCount",
+        "MoveComplete",
         "Moving",
         "Mummy",
         "OnApplicationQuit",
         "Picked",
         "Player",
         "Position",
+        "PreviousPosition",
+        "Quit",
         "Rigidbody",
+        "SaveResults",
         "Score",
         "SpawnCoin",
+        "SpawnMummy",
         "SpawnsCoins",
+        "SpawnZombie",
         "StoppedMoving",
         "Target",
         "Text",
-        "TilemapCollider2D",
         "Tilemap",
         "Time",
         "Transform",
-        "ViewController",
+        "WalkSpeed",
         "Wall",
+        "WorldPosition",
         "Zombie",
         "DestructedListener",
         "DirectionListener",
@@ -101,40 +113,46 @@ public static class GameComponentsLookup {
     public static readonly System.Type[] componentTypes = {
         typeof(Components.BoxCollider2DComponent),
         typeof(Components.Cell),
-        typeof(Components.CharacterControllerComponent),
         typeof(Components.ChaseThePlayer),
         typeof(Components.Chasing),
         typeof(Components.Coin),
         typeof(Components.CollidingViewRegister),
-        typeof(Components.CollisionId),
+        typeof(Components.CurrentPosition),
         typeof(Components.Dead),
         typeof(Components.Destructed),
         typeof(Components.Direction),
+        typeof(Components.Enemy),
+        typeof(Components.GameOver),
         typeof(Components.Ground),
         typeof(Components.HasCoin),
-        typeof(Components.Id),
-        typeof(Components.Identifiers),
         typeof(Components.Map),
+        typeof(Components.MapBuilded),
         typeof(Components.MaxCoinCount),
+        typeof(Components.MoveComplete),
         typeof(Components.Moving),
         typeof(Components.Mummy),
         typeof(Components.OnApplicationQuit),
         typeof(Components.Picked),
         typeof(Components.Player),
         typeof(Components.Position),
+        typeof(Components.PreviousPosition),
+        typeof(Components.Quit),
         typeof(Components.RigidbodyComponent),
+        typeof(Components.SaveResults),
         typeof(Components.Score),
         typeof(Components.SpawnCoin),
+        typeof(Components.SpawnMummy),
         typeof(Components.SpawnsCoins),
+        typeof(Components.SpawnZombie),
         typeof(Components.StoppedMoving),
         typeof(Components.Target),
         typeof(Components.Text),
-        typeof(Components.TilemapCollider2DComponent),
         typeof(Components.TilemapComponent),
         typeof(Components.Time),
         typeof(Components.TransformComponent),
-        typeof(Components.ViewControllerComponent),
+        typeof(Components.WalkSpeed),
         typeof(Components.Wall),
+        typeof(Components.WorldPosition),
         typeof(Components.Zombie),
         typeof(DestructedListenerComponent),
         typeof(DirectionListenerComponent),

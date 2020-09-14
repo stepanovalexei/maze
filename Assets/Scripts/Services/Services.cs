@@ -7,6 +7,5 @@ namespace Services
         public ITimeService Time;
         public IInputService InputService;
         public IRegisterService<IView> CollidingViewRegister;
-        public GameIdentifierService Identifiers;
     }
 }

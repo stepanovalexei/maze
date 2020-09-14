@@ -1,0 +1,34 @@
+{
+  "List": [
+    {
+      "PlayerName": "Lyoha",
+      "Date": -8586015571502506606,
+      "Score": 0,
+      "TimeSpent": 4.99886036,
+      "EndReason": 1,
+      "DateConverted": "2020-09-14T05:15:35.2269202+03:00",
+      "ReasonConverted": "ApplicationQuit",
+      "TimeSpentFormatted": "00m:04s"
+    },
+    {
+      "PlayerName": "Lyoha",
+      "Date": -8586015571355364280,
+      "Score": 0,
+      "TimeSpent": 2.16068244,
+      "EndReason": 0,
+      "DateConverted": "2020-09-14T05:15:49.9411528+03:00",
+      "ReasonConverted": "Death",
+      "TimeSpentFormatted": "00m:02s"
+    },
+    {
+      "PlayerName": "Lyoha",
+      "Date": -8586015571235831574,
+      "Score": 0,
+      "TimeSpent": 4.14582062,
+      "EndReason": 1,
+      "DateConverted": "2020-09-14T05:16:01.8944234+03:00",
+      "ReasonConverted": "ApplicationQuit",
+      "TimeSpentFormatted": "00m:04s"
+    }
+  ]
+}

@@ -24,7 +24,7 @@ namespace Systems.Gameplay.Map
             foreach (var score in scores.GetEntities())
             {
                 coin.isDestructed = true;
-                score.score.Value += 1;
+                score.ReplaceScore(score.Score + 1);
             }
         }
     }

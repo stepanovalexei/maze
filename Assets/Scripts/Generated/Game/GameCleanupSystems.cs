@@ -11,8 +11,14 @@ public sealed class GameCleanupSystems : Feature {
     public GameCleanupSystems(Contexts contexts) {
         Add(new RemoveSpawnCoinGameSystem(contexts));
         Add(new RemovePickedGameSystem(contexts));
+        Add(new DestroySpawnZombieGameSystem(contexts));
+        Add(new DestroySpawnMummyGameSystem(contexts));
         Add(new RemoveChaseThePlayerGameSystem(contexts));
         Add(new DestroyDeadGameSystem(contexts));
+        Add(new RemoveMapBuildedGameSystem(contexts));
         Add(new DestroyDestructedGameSystem(contexts));
+        Add(new RemoveQuitGameSystem(contexts));
+        Add(new RemoveOnApplicationQuitGameSystem(contexts));
+        Add(new RemoveSaveResultsGameSystem(contexts));
     }
 }

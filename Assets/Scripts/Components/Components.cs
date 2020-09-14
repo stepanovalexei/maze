@@ -16,7 +16,6 @@ namespace Components
 // Services
     [Unique] public class Time : IComponent, IService { public ITimeService Value; }
     [Unique] public class CollidingViewRegister : IComponent, IService { public IRegisterService<IView> Value; }
-    [Unique] public class Identifiers : IComponent, IService { public IIdentifierService Value; }
     [Unique, Input] public class Input : IComponent, IService { public IInputService Value; }
     
 // Input  
@@ -25,37 +24,44 @@ namespace Components
     [Input] public class Vertical : IComponent { public float Value; }
     [Input] public class Escape : IComponent { }
   
-    public class ViewControllerComponent : IComponent { public IView Value; }
-  
-    public class Id : IComponent { [PrimaryEntityIndex] public int Value; }
-    public class CollisionId : IComponent { [EntityIndex] public int Value; }
   
     public class Player : IComponent {}
+    
     public class Coin : IComponent {}
     [FlagPrefix("")]public class SpawnsCoins : IComponent {}
     [FlagPrefix("")][Cleanup(RemoveComponent)]public class SpawnCoin : IComponent {}
     public class MaxCoinCount : IComponent { public int Value; }
     [Cleanup(RemoveComponent)]public class Picked : IComponent {}
-    
+
+
+    public class Enemy : IComponent {}
     public class Zombie : IComponent {}
     public class Mummy : IComponent {}
+    [FlagPrefix("")][Cleanup(DestroyEntity)]public class SpawnZombie : IComponent {}
+    [FlagPrefix("")][Cleanup(DestroyEntity)]public class SpawnMummy : IComponent {}
+
+    public class WalkSpeed : IComponent { public float Value; }
 
     [Cleanup(RemoveComponent)]public class ChaseThePlayer : IComponent {}
     public class Chasing : IComponent {}
+    public class CurrentPosition : IComponent { public Vector3Int value; }
+    public class PreviousPosition : IComponent { public Vector3Int value; }
     public class Target : IComponent { public Vector3 value; }
+    public class MoveComplete : IComponent {}
     [Cleanup(DestroyEntity)]public class Dead : IComponent {}
     
+    
     [Unique]public class Map : IComponent { }
+    [Cleanup(RemoveComponent)]public class MapBuilded : IComponent { }
     public class Cell : IComponent { [EntityIndex] public Vector3Int Value; }
+    public class WorldPosition : IComponent { [EntityIndex] public Vector3 Value; }
     public class Ground : IComponent {}
     public class Wall : IComponent {}
     public class HasCoin : IComponent {}
     
     public class RigidbodyComponent : IComponent { public Rigidbody2D value; }
     public class TransformComponent : IComponent { public Transform value; }
-    public class CharacterControllerComponent : IComponent { public CharacterController value; }
     public class TilemapComponent : IComponent { public Tilemap value; }
-    public class TilemapCollider2DComponent : IComponent { public TilemapCollider2D value; }
     public class BoxCollider2DComponent : IComponent { public BoxCollider2D value; }
   
     [Event(Self)] public class Moving : IComponent{ }
@@ -68,9 +74,16 @@ namespace Components
     [Game][Unique] public class Score : IComponent { public int Value; }
     [Game] public class Text : IComponent { public TextMeshProUGUI Value; }
     
-    [Meta][Unique] public class SecondsSpent : IComponent { public float Value; }
-    [Meta][Unique] public class TimeStarted : IComponent { public DateTime Value; }
-    [Meta][Unique]public class ScoreView : IComponent {}
     
-    public class OnApplicationQuit : IComponent {}
+    [Game][Unique] public class GameOver : IComponent { }
+    [Cleanup(RemoveComponent)][Unique] public class Quit : IComponent { }
+    
+    [Meta][Unique] public class TimeStarted : IComponent { public DateTime Value; }
+    [Meta][Unique] public class TimeSpent : IComponent { public float Value; }
+    [Meta][Unique] public class ScoreView : IComponent {}
+
+    
+    [Cleanup(RemoveComponent)][Unique]public class OnApplicationQuit : IComponent {}
+    [Cleanup(RemoveComponent)]public class SaveResults : IComponent {}
+    
 }

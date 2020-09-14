@@ -11,7 +11,6 @@ namespace Systems.ServiceRegistration
             Add(new RegisterServiceSystem<ITimeService>(services.Time, game.ReplaceTime));
             Add(new RegisterServiceSystem<IInputService>(services.InputService, input.ReplaceInput));
             Add(new RegisterServiceSystem<IRegisterService<IView>>(services.CollidingViewRegister, game.ReplaceCollidingViewRegister));
-            Add(new RegisterServiceSystem<IIdentifierService>(services.Identifiers, game.ReplaceIdentifiers));
         }
     }
 }

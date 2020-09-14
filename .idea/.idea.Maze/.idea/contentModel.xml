@@ -56,10 +56,8 @@
           <e p="Bootstrap.cs" t="Include" />
           <e p="Components" t="Include">
             <e p="ComponentRegistrators" t="Include">
-              <e p="CharacterControllerRegistrator.cs" t="Include" />
               <e p="IComponentRegistrator.cs" t="Include" />
               <e p="RigidbodyRegistrator.cs" t="Include" />
-              <e p="TileMapColliderRegistrator.cs" t="Include" />
               <e p="TileMapRegistrator.cs" t="Include" />
             </e>
             <e p="Components.cs" t="Include" />
@@ -67,16 +65,21 @@
           <e p="Constants.cs" t="Include" />
           <e p="Core" t="Include">
             <e p="EntityBehaviour.cs" t="Include" />
-            <e p="Player" t="Include">
-              <e p="Coin.cs" t="Include" />
-              <e p="Map.cs" t="Include" />
-              <e p="Maps.cs" t="Include" />
-              <e p="Player.cs" t="Include" />
-              <e p="PlayerAnimator.cs" t="Include" />
-              <e p="Zombie.cs" t="Include" />
-            </e>
-            <e p="Prefabs" t="Include">
-              <e p="Prefabs.cs" t="Include" />
+            <e p="IEventListener.cs" t="Include" />
+            <e p="PlayerObjects" t="Include">
+              <e p="Enemies" t="Include">
+                <e p="Mummy.cs" t="Include" />
+                <e p="Zombie.cs" t="Include" />
+              </e>
+              <e p="Player" t="Include">
+                <e p="Player.cs" t="Include" />
+                <e p="PlayerAnimator.cs" t="Include" />
+              </e>
+              <e p="Scenery" t="Include">
+                <e p="Coin.cs" t="Include" />
+                <e p="Map.cs" t="Include" />
+                <e p="Maps.cs" t="Include" />
+              </e>
             </e>
             <e p="UI" t="Include">
               <e p="Score.cs" t="Include" />
@@ -85,7 +88,6 @@
           </e>
           <e p="Entity" t="Include">
             <e p="CreateEntity.cs" t="Include" />
-            <e p="EntityExtensions.cs" t="Include" />
           </e>
           <e p="Extensions" t="Include">
             <e p="EnumerableExtensions.cs" t="Include" />
@@ -126,23 +128,24 @@
               <e p="Components" t="Include">
                 <e p="GameBoxCollider2DComponent.cs" t="Include" />
                 <e p="GameCellComponent.cs" t="Include" />
-                <e p="GameCharacterControllerComponent.cs" t="Include" />
                 <e p="GameChaseThePlayerComponent.cs" t="Include" />
                 <e p="GameChasingComponent.cs" t="Include" />
                 <e p="GameCoinComponent.cs" t="Include" />
                 <e p="GameCollidingViewRegisterComponent.cs" t="Include" />
-                <e p="GameCollisionIdComponent.cs" t="Include" />
+                <e p="GameCurrentPositionComponent.cs" t="Include" />
                 <e p="GameDeadComponent.cs" t="Include" />
                 <e p="GameDestructedComponent.cs" t="Include" />
                 <e p="GameDestructedListenerComponent.cs" t="Include" />
                 <e p="GameDirectionComponent.cs" t="Include" />
                 <e p="GameDirectionListenerComponent.cs" t="Include" />
+                <e p="GameEnemyComponent.cs" t="Include" />
+                <e p="GameGameOverComponent.cs" t="Include" />
                 <e p="GameGroundComponent.cs" t="Include" />
                 <e p="GameHasCoinComponent.cs" t="Include" />
-                <e p="GameIdComponent.cs" t="Include" />
-                <e p="GameIdentifiersComponent.cs" t="Include" />
+                <e p="GameMapBuildedComponent.cs" t="Include" />
                 <e p="GameMapComponent.cs" t="Include" />
                 <e p="GameMaxCoinCountComponent.cs" t="Include" />
+                <e p="GameMoveCompleteComponent.cs" t="Include" />
                 <e p="GameMovingComponent.cs" t="Include" />
                 <e p="GameMovingListenerComponent.cs" t="Include" />
                 <e p="GameMummyComponent.cs" t="Include" />
@@ -151,20 +154,25 @@
                 <e p="GamePlayerComponent.cs" t="Include" />
                 <e p="GamePositionComponent.cs" t="Include" />
                 <e p="GamePositionListenerComponent.cs" t="Include" />
+                <e p="GamePreviousPositionComponent.cs" t="Include" />
+                <e p="GameQuitComponent.cs" t="Include" />
                 <e p="GameRigidbodyComponent.cs" t="Include" />
+                <e p="GameSaveResultsComponent.cs" t="Include" />
                 <e p="GameScoreComponent.cs" t="Include" />
                 <e p="GameSpawnCoinComponent.cs" t="Include" />
+                <e p="GameSpawnMummyComponent.cs" t="Include" />
                 <e p="GameSpawnsCoinsComponent.cs" t="Include" />
+                <e p="GameSpawnZombieComponent.cs" t="Include" />
                 <e p="GameStoppedMovingComponent.cs" t="Include" />
                 <e p="GameStoppedMovingListenerComponent.cs" t="Include" />
                 <e p="GameTargetComponent.cs" t="Include" />
                 <e p="GameTextComponent.cs" t="Include" />
-                <e p="GameTilemapCollider2DComponent.cs" t="Include" />
                 <e p="GameTilemapComponent.cs" t="Include" />
                 <e p="GameTimeComponent.cs" t="Include" />
                 <e p="GameTransformComponent.cs" t="Include" />
-                <e p="GameViewControllerComponent.cs" t="Include" />
+                <e p="GameWalkSpeedComponent.cs" t="Include" />
                 <e p="GameWallComponent.cs" t="Include" />
+                <e p="GameWorldPositionComponent.cs" t="Include" />
                 <e p="GameZombieComponent.cs" t="Include" />
               </e>
               <e p="GameAttribute.cs" t="Include" />
@@ -176,8 +184,14 @@
               <e p="Systems" t="Include">
                 <e p="DestroyDeadGameSystem.cs" t="Include" />
                 <e p="DestroyDestructedGameSystem.cs" t="Include" />
+                <e p="DestroySpawnMummyGameSystem.cs" t="Include" />
+                <e p="DestroySpawnZombieGameSystem.cs" t="Include" />
                 <e p="RemoveChaseThePlayerGameSystem.cs" t="Include" />
+                <e p="RemoveMapBuildedGameSystem.cs" t="Include" />
+                <e p="RemoveOnApplicationQuitGameSystem.cs" t="Include" />
                 <e p="RemovePickedGameSystem.cs" t="Include" />
+                <e p="RemoveQuitGameSystem.cs" t="Include" />
+                <e p="RemoveSaveResultsGameSystem.cs" t="Include" />
                 <e p="RemoveSpawnCoinGameSystem.cs" t="Include" />
               </e>
             </e>
@@ -198,7 +212,7 @@
             <e p="Meta" t="Include">
               <e p="Components" t="Include">
                 <e p="MetaScoreViewComponent.cs" t="Include" />
-                <e p="MetaSecondsSpentComponent.cs" t="Include" />
+                <e p="MetaTimeSpentComponent.cs" t="Include" />
                 <e p="MetaTimeStartedComponent.cs" t="Include" />
               </e>
               <e p="MetaAttribute.cs" t="Include" />
@@ -219,10 +233,10 @@
               <e p="Results.cs" t="Include" />
             </e>
           </e>
+          <e p="Prefabs" t="Include">
+            <e p="Prefabs.cs" t="Include" />
+          </e>
           <e p="Services" t="Include">
-            <e p="GameIdentifierService.cs" t="Include" />
-            <e p="IEventListener.cs" t="Include" />
-            <e p="IIdentifierService.cs" t="Include" />
             <e p="IInputService.cs" t="Include" />
             <e p="IRegisterService.cs" t="Include" />
             <e p="IService.cs" t="Include" />
@@ -234,12 +248,19 @@
           </e>
           <e p="Systems" t="Include">
             <e p="Gameplay" t="Include">
-              <e p="Common" t="Include">
-                <e p="TimerExecute.cs" t="Include" />
+              <e p="Enemy" t="Include">
+                <e p="FindDestinationToMove.cs" t="Include" />
+                <e p="InstantiateMummy.cs" t="Include" />
+                <e p="InstantiateZombie.cs" t="Include" />
+                <e p="MoveEnemy.cs" t="Include" />
+                <e p="SpawnMummyWhenTenCoinsPicked.cs" t="Include" />
+                <e p="SpawnSecondZombieWhenFiveCoinsPicked.cs" t="Include" />
+                <e p="SpawnZombieAtStart.cs" t="Include" />
               </e>
               <e p="Input" t="Include">
                 <e p="EmitInputSystem.cs" t="Include" />
                 <e p="InputFeature.cs" t="Include" />
+                <e p="QuitGameOnEscape.cs" t="Include" />
                 <e p="RegisterInputsSystem.cs" t="Include" />
               </e>
               <e p="Map" t="Include">
@@ -249,11 +270,15 @@
                 <e p="StopSpawningCoinsIfLimitIsReached.cs" t="Include" />
                 <e p="UpdateScore.cs" t="Include" />
               </e>
-              <e p="MazeFeature.cs" t="Include" />
               <e p="Player" t="Include">
                 <e p="MovePlayer.cs" t="Include" />
               </e>
+              <e p="Statistics" t="Include">
+                <e p="CountTimeFromStart.cs" t="Include" />
+                <e p="SaveResultsWhenGameEnds.cs" t="Include" />
+              </e>
             </e>
+            <e p="MazeFeature.cs" t="Include" />
             <e p="ServiceRegistration" t="Include">
               <e p="RegisterServiceSystem.cs" t="Include" />
               <e p="ServiceRegistrationSystems.cs" t="Include" />

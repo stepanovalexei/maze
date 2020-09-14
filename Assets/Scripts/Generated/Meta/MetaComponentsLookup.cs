@@ -9,20 +9,20 @@
 public static class MetaComponentsLookup {
 
     public const int ScoreView = 0;
-    public const int SecondsSpent = 1;
+    public const int TimeSpent = 1;
     public const int TimeStarted = 2;
 
     public const int TotalComponents = 3;
 
     public static readonly string[] componentNames = {
         "ScoreView",
-        "SecondsSpent",
+        "TimeSpent",
         "TimeStarted"
     };
 
     public static readonly System.Type[] componentTypes = {
         typeof(Components.ScoreView),
-        typeof(Components.SecondsSpent),
+        typeof(Components.TimeSpent),
         typeof(Components.TimeStarted)
     };
 }
