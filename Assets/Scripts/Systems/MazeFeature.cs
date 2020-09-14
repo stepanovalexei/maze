@@ -32,7 +32,9 @@ namespace Systems
             (
                 new UpdateScore(game),
                 new CountTimeFromStart(meta ,game),
-                new SaveResultsWhenGameEnds(meta ,game)
+                new SaveResultsWhenGameEnds(meta ,game),
+                
+                new GoBackToMenuWhenGameOver(meta ,game)
             );
         }
     }
@@ -56,7 +58,8 @@ namespace Systems
                 new InstantiateZombie(game, prefabs.Zombie),
                 
                 new MoveEnemy(game),
-                new FindDestinationToMove(game, input),
+                
+                new NullifyScoreWhenHitByMummy(game),
                 
                 new SpawnCoinsWithInterval(game, 5f),
                 new StopSpawningCoinsIfLimitIsReached(game),

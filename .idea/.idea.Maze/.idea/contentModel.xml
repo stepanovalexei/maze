@@ -142,6 +142,7 @@
                 <e p="GameGameOverComponent.cs" t="Include" />
                 <e p="GameGroundComponent.cs" t="Include" />
                 <e p="GameHasCoinComponent.cs" t="Include" />
+                <e p="GameHitByMummyComponent.cs" t="Include" />
                 <e p="GameMapBuildedComponent.cs" t="Include" />
                 <e p="GameMapComponent.cs" t="Include" />
                 <e p="GameMaxCoinCountComponent.cs" t="Include" />
@@ -182,11 +183,12 @@
               <e p="GameEntity.cs" t="Include" />
               <e p="GameMatcher.cs" t="Include" />
               <e p="Systems" t="Include">
-                <e p="DestroyDeadGameSystem.cs" t="Include" />
                 <e p="DestroyDestructedGameSystem.cs" t="Include" />
                 <e p="DestroySpawnMummyGameSystem.cs" t="Include" />
                 <e p="DestroySpawnZombieGameSystem.cs" t="Include" />
                 <e p="RemoveChaseThePlayerGameSystem.cs" t="Include" />
+                <e p="RemoveDeadGameSystem.cs" t="Include" />
+                <e p="RemoveHitByMummyGameSystem.cs" t="Include" />
                 <e p="RemoveMapBuildedGameSystem.cs" t="Include" />
                 <e p="RemoveOnApplicationQuitGameSystem.cs" t="Include" />
                 <e p="RemovePickedGameSystem.cs" t="Include" />
@@ -231,6 +233,8 @@
               <e p="GameEndReason.cs" t="Include" />
               <e p="Result.cs" t="Include" />
               <e p="Results.cs" t="Include" />
+              <e p="ResultsView.cs" t="Include" />
+              <e p="ResultView.cs" t="Include" />
             </e>
           </e>
           <e p="Prefabs" t="Include">
@@ -249,10 +253,10 @@
           <e p="Systems" t="Include">
             <e p="Gameplay" t="Include">
               <e p="Enemy" t="Include">
-                <e p="FindDestinationToMove.cs" t="Include" />
                 <e p="InstantiateMummy.cs" t="Include" />
                 <e p="InstantiateZombie.cs" t="Include" />
                 <e p="MoveEnemy.cs" t="Include" />
+                <e p="NullifyScoreWhenHitByMummy.cs" t="Include" />
                 <e p="SpawnMummyWhenTenCoinsPicked.cs" t="Include" />
                 <e p="SpawnSecondZombieWhenFiveCoinsPicked.cs" t="Include" />
                 <e p="SpawnZombieAtStart.cs" t="Include" />
@@ -270,12 +274,13 @@
                 <e p="StopSpawningCoinsIfLimitIsReached.cs" t="Include" />
                 <e p="UpdateScore.cs" t="Include" />
               </e>
+              <e p="Meta" t="Include">
+                <e p="CountTimeFromStart.cs" t="Include" />
+                <e p="GoBackToMenuWhenGameOver.cs" t="Include" />
+                <e p="SaveResultsWhenGameEnds.cs" t="Include" />
+              </e>
               <e p="Player" t="Include">
                 <e p="MovePlayer.cs" t="Include" />
-              </e>
-              <e p="Statistics" t="Include">
-                <e p="CountTimeFromStart.cs" t="Include" />
-                <e p="SaveResultsWhenGameEnds.cs" t="Include" />
               </e>
             </e>
             <e p="MazeFeature.cs" t="Include" />

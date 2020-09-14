@@ -13,7 +13,7 @@ namespace MainMenu.Results
         public float TimeSpent;
         public int EndReason;
 
-        public DateTime DateConverted => DateTime.FromBinary(Date);
+        public string DateConverted => DateTime.FromBinary(Date).ToString("HH:mm");
         public string ReasonConverted => ((GameEndReason) EndReason).ToString();
         public string TimeSpentFormatted
         {

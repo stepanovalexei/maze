@@ -1,11 +1,9 @@
 ﻿using System;
+using Services;
 using UnityEngine;
 
-namespace Services
+public class UnityTimeService : ITimeService
 {
-    public class UnityTimeService : ITimeService
-    {
-        public float DeltaTime => Time.deltaTime;
-        public DateTime UtcNow => DateTime.UtcNow;
-    }
+    public float DeltaTime => Time.deltaTime;
+    public DateTime UtcNow => DateTime.UtcNow;
 }

@@ -13,14 +13,15 @@ namespace Core.PlayerObjects.Enemies
             Game
                 .CollidingViewRegister
                 .Take(collision.GetInstanceID())
-                .With(x => x.Entity.isDead = true);
+                .With(x => x.Entity.isDead = true)
+                .With(x => x.Entity.isHitByMummy = true);
         }
 
         protected override void OnStart()
         {
             base.OnStart();
             Entity
-                .AddWalkSpeed(50f)
+                .AddWalkSpeed(1f)
                 .With(x => x.isMummy = true)
                 .With(x => x.isEnemy = true);
         }

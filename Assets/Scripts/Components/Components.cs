@@ -24,9 +24,8 @@ namespace Components
     [Input] public class Vertical : IComponent { public float Value; }
     [Input] public class Escape : IComponent { }
   
-  
+// Gameplay       
     public class Player : IComponent {}
-    
     public class Coin : IComponent {}
     [FlagPrefix("")]public class SpawnsCoins : IComponent {}
     [FlagPrefix("")][Cleanup(RemoveComponent)]public class SpawnCoin : IComponent {}
@@ -37,6 +36,8 @@ namespace Components
     public class Enemy : IComponent {}
     public class Zombie : IComponent {}
     public class Mummy : IComponent {}
+    
+    [Cleanup(RemoveComponent)]public class HitByMummy : IComponent {}
     [FlagPrefix("")][Cleanup(DestroyEntity)]public class SpawnZombie : IComponent {}
     [FlagPrefix("")][Cleanup(DestroyEntity)]public class SpawnMummy : IComponent {}
 
@@ -48,7 +49,7 @@ namespace Components
     public class PreviousPosition : IComponent { public Vector3Int value; }
     public class Target : IComponent { public Vector3 value; }
     public class MoveComplete : IComponent {}
-    [Cleanup(DestroyEntity)]public class Dead : IComponent {}
+    [Cleanup(RemoveComponent)]public class Dead : IComponent {}
     
     
     [Unique]public class Map : IComponent { }
@@ -74,10 +75,9 @@ namespace Components
     [Game][Unique] public class Score : IComponent { public int Value; }
     [Game] public class Text : IComponent { public TextMeshProUGUI Value; }
     
-    
+// Meta    
     [Game][Unique] public class GameOver : IComponent { }
     [Cleanup(RemoveComponent)][Unique] public class Quit : IComponent { }
-    
     [Meta][Unique] public class TimeStarted : IComponent { public DateTime Value; }
     [Meta][Unique] public class TimeSpent : IComponent { public float Value; }
     [Meta][Unique] public class ScoreView : IComponent {}

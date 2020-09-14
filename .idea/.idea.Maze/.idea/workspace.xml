@@ -22,167 +22,49 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cad27b5-8268-4897-937f-0fedce606127" name="Default Changelist" comment="Results Serialization">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemies/Run.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemies/Run.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemies/Zombie.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Enemies/Zombie.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Zombie.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Zombie.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Enemies.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Enemies/Mummy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Enemies/Zombie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Player.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Scenery.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameCurrentPositionComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameCurrentPositionComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameGameOverComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameMoveCompleteComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GamePreviousPositionComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GamePreviousPositionComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameQuitComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameSaveResultsComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameSpawnMummyComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameSpawnZombieComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameWalkSpeedComponent.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameWalkSpeedComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameWorldPositionComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Systems/DestroySpawnMummyGameSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Systems/DestroySpawnZombieGameSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Systems/RemoveOnApplicationQuitGameSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Systems/RemoveQuitGameSystem.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Input/Systems.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Meta/Components/MetaTimeSpentComponent.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Prefabs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/FindDestinationToMove.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/FindDestinationToMove.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/InstantiateMummy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/InstantiateMummy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/InstantiateZombie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/InstantiateZombie.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/MoveEnemy.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/MoveEnemy.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/SpawnMummyWhenTenCoinsPicked.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/SpawnMummyWhenTenCoinsPicked.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/SpawnSecondZombieWhenFiveCoinsPicked.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/SpawnSecondZombieWhenFiveCoinsPicked.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/SpawnZombieAtStart.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/SpawnZombieAtStart.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Input/QuitGameOnEscape.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Input/QuitGameOnEscape.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics/CountTimeFromStart.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics/CountTimeFromStart.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics/SaveResultsWhenGameEnds.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics/SaveResultsWhenGameEnds.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Results.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Results.json.meta" afterDir="false" />
+    <list default="true" id="9cad27b5-8268-4897-937f-0fedce606127" name="Default Changelist" comment="Save results">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Result.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Result.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameHitByMummyComponent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Systems/RemoveDeadGameSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Systems/RemoveDeadGameSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Systems/RemoveHitByMummyGameSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Results/ResultView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Results/ResultView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Results/ResultsView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Results/ResultsView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/NullifyScoreWhenHitByMummy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/NullifyScoreWhenHitByMummy.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Meta/SaveResultsWhenGameEnds.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Meta/SaveResultsWhenGameEnds.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Maze/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Run.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Run.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player/Run.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player/Run.anim.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dependencies/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dependencies/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Bootstrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/ComponentRegistrators/CharacterControllerRegistrator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/ComponentRegistrators/CharacterControllerRegistrator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/ComponentRegistrators/TileMapColliderRegistrator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/ComponentRegistrators/TileMapColliderRegistrator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Components/Components.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Components/Components.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Constants.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Constants.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Player.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Player/Coin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Scenery/Coin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Player/Coin.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Scenery/Coin.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Player/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Scenery/Map.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Player/Map.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Scenery/Map.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Player/Maps.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Scenery/Maps.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Player/Maps.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Scenery/Maps.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Player/Player.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Player/Player.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Player/PlayerAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Player/PlayerAnimator.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Player/PlayerAnimator.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Player/PlayerAnimator.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Player/Zombie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Enemies/Mummy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Player/Zombie.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Enemies/Zombie.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Prefabs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Prefabs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Prefabs/Prefabs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prefabs/Prefabs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Prefabs/Prefabs.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Prefabs/Prefabs.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/UnityView.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/UnityView.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entity/EntityExtensions.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Entity/EntityExtensions.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Contexts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Contexts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameCharacterControllerComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameCharacterControllerComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameCollisionIdComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameCollisionIdComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameIdComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameIdComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameIdentifiersComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameIdentifiersComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameOnApplicationQuitComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameOnApplicationQuitComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameOnApplicationQuitComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameOnApplicationQuitComponent.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameTilemapCollider2DComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameTilemapCollider2DComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameViewControllerComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Components/GameViewControllerComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Enemies/Mummy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Enemies/Mummy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Enemies/Zombie.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Enemies/Zombie.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Scenery/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Scenery/Map.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/GameCleanupSystems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/GameCleanupSystems.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/GameComponentsLookup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/GameComponentsLookup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Meta/Components/MetaSecondsSpentComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Meta/Components/MetaSecondsSpentComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Meta/MetaComponentsLookup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Generated/Meta/MetaComponentsLookup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Systems/DestroyDeadGameSystem.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Generated/Game/Systems/DestroyDeadGameSystem.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Results/Result.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Results/Result.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Results/Results.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenu/Results/Results.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/GameIdentifierService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/GameIdentifierService.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/IEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/IEventListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/IEventListener.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/IEventListener.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/IIdentifierService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/IIdentifierService.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/IInputService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/IInputService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/ITimeService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/ITimeService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/Services.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/Services.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/StandaloneInputService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/StandaloneInputService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Services/UnityTimeService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Services/UnityTimeService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Common.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Common.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Common/TimerExecute.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Common/TimerExecute.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Input/EmitInputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Input/EmitInputSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Input/InputFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Input/InputFeature.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Map/PickCoin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Map/PickCoin.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/MazeFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/MazeFeature.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/MazeFeature.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/MazeFeature.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Player/MovePlayer.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Player/MovePlayer.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/ServiceRegistration/ServiceRegistrationSystems.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/ServiceRegistration/ServiceRegistrationSystems.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ViewListeners/MovingListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ViewListeners/MovingListener.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_idle_anim_f0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_idle_anim_f0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_idle_anim_f1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_idle_anim_f1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_idle_anim_f2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_idle_anim_f2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_idle_anim_f3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_idle_anim_f3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_run_anim_f0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_run_anim_f0.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_run_anim_f1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_run_anim_f1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_run_anim_f2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_run_anim_f2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_run_anim_f3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Mummy/skelet_run_anim_f3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_idle_anim_f0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_idle_anim_f0.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_idle_anim_f1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_idle_anim_f1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_idle_anim_f2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_idle_anim_f2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_idle_anim_f3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_idle_anim_f3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_run_anim_f0.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_run_anim_f0.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_run_anim_f1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_run_anim_f1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_run_anim_f2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_run_anim_f2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_run_anim_f3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Zombie/zombie_run_anim_f3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Common.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/FindDestinationToMove.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/FindDestinationToMove.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/MoveEnemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/MoveEnemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/SpawnZombieAtStart.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/SpawnZombieAtStart.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Meta.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics/CountTimeFromStart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Meta/CountTimeFromStart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics/CountTimeFromStart.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Meta/CountTimeFromStart.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics/SaveResultsWhenGameEnds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Meta/GoBackToMenuWhenGameOver.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics/SaveResultsWhenGameEnds.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Meta/GoBackToMenuWhenGameOver.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Systems/MazeFeature.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Systems/MazeFeature.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets/Results.json" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StreamingAssets/Results.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,50 +75,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0083973-04F8-4E50-A333-74C87AE48947/0b/627e975a/EntityBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0083973-04F8-4E50-A333-74C87AE48947/b0/cc5fa4a1/GameObjectDestroyExtension.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D815B7EF-AC42-4EEB-8E05-3965CCCB1F98/e3/58edf171/PlayerPrefs.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0083973-04F8-4E50-A333-74C87AE48947/0b/627e975a/EntityBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0083973-04F8-4E50-A333-74C87AE48947/b0/cc5fa4a1/GameObjectDestroyExtension.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFFF7C0B-1952-412C-B811-8DDDD204A124/70/b531a114/IGroup`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFFF7C0B-1952-412C-B811-8DDDD204A124/d3/17b8519a/Group`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFFF7C0B-1952-412C-B811-8DDDD204A124/27/a51b9d40/ReactiveSystem`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFFF7C0B-1952-412C-B811-8DDDD204A124/d3/17b8519a/Group`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0083973-04F8-4E50-A333-74C87AE48947/1b/fdbe8beb/DebugSystems.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/SaveName.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/Constants.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/SaveNameButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Constants.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/StartGameButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/Results.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/Result.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Player/Map.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Player/MoveEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Player/FindDestinationToMove.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/FindDestinationToMove.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/MazeFeature.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Player/Zombie.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/Player/PlayerAnimator.cs" />
@@ -251,10 +104,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Map/PickCoin.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/SpawnSecondZombieWhenFiveCoinsPicked.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/SpawnMummyWhenTenCoinsPicked.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/MoveEnemy.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Scenery/Map.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Enemies/Zombie.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Enemies/Mummy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Player/MovePlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Player/MovePlayerw.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Player/PlayerDied.cs" />
@@ -262,20 +111,32 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Player/SaveResultsWhenGameEnds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Input/EmitInputSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Services/ITimeService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Services/UnityTimeService.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Components.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics/SaveResultsWhenGameEnds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bootstrap.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/MazeFeature.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/SpawnZombieAtStart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics/CountTimeFromStart.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Core/UnityView.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Input/QuitGameOnEscape.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Input/QuitGameOnApplicationEnd.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Input/InputFeature.cs" />
-        <option value="$PROJECT_DIR$/Assets/StreamingAssets/Results.json" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/Results/Result.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Services/UnityTimeService.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/FindDestinationToMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/MoveEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/SpawnZombieAtStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/NullifyScoreWhenHitByZombie.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Enemy/NullifyScoreWhenHitByMummy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ViewListeners/MovingListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Enemies/Mummy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Enemies/Zombie.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics/SaveResultsWhenGameEnds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Statistics/GoBackToMenuWhenGameOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/MazeFeature.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/PlayerObjects/Scenery/Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Meta/SaveResultsWhenGameEnds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/Results/Results.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Meta/GoBackToMenuWhenGameOver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Components/Components.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/Results/Result.cs" />
+        <option value="$PROJECT_DIR$/Assets/StreamingAssets/Results.json" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu/Results/ResultsView.cs" />
       </list>
     </option>
   </component>
@@ -300,7 +161,7 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.jsonOptions" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager" selected=".NET Executable.Jenny gen">
     <configuration name="Jenny gen" type="RunExe" factoryName=".NET Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Jenny/Jenny.exe" />
       <option name="PROGRAM_PARAMETERS" value="client gen" />
@@ -311,19 +172,19 @@
       <option name="RUNTIME_ARGUMENTS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20220">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="20220" />
+      <option name="pid" />
       <option name="selectedOptions">
         <set />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20220">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="7628">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="20220" />
+      <option name="pid" value="7628" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -341,6 +202,16 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -360,7 +231,8 @@
     <MESSAGE value="Pickup Coins" />
     <MESSAGE value="Project Cleanup" />
     <MESSAGE value="Results Serialization" />
-    <option name="LAST_COMMIT_MESSAGE" value="Results Serialization" />
+    <MESSAGE value="Save results" />
+    <option name="LAST_COMMIT_MESSAGE" value="Save results" />
   </component>
   <component name="WindowStateProjectService">
     <state x="294" y="160" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599765391676">
@@ -375,78 +247,78 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="598" y="365" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/0.0.1680.1010@0.0.1680.1010" timestamp="1599751971500" />
-    <state width="445" height="466" key="DebuggerActiveHint" timestamp="1600043196352">
+    <state width="862" height="466" key="DebuggerActiveHint" timestamp="1600049646023">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="445" height="466" key="DebuggerActiveHint/0.0.1680.1010@0.0.1680.1010" timestamp="1600043196352" />
+    <state width="862" height="466" key="DebuggerActiveHint/0.0.1680.1010@0.0.1680.1010" timestamp="1600049646023" />
     <state x="570" y="426" key="GitCloneDialog" timestamp="1599767191357">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="570" y="426" key="GitCloneDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1599767191357" />
-    <state width="1637" height="29" key="GridCell.Tab.0.bottom" timestamp="1600048504620">
+    <state width="1637" height="29" key="GridCell.Tab.0.bottom" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1600048504620" />
-    <state width="1637" height="29" key="GridCell.Tab.0.center" timestamp="1600048504620">
+    <state width="1637" height="29" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.0.center" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1600048504620" />
-    <state width="1637" height="29" key="GridCell.Tab.0.left" timestamp="1600048504620">
+    <state width="1637" height="29" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.0.left" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1600048504620" />
-    <state width="1637" height="29" key="GridCell.Tab.0.right" timestamp="1600048504620">
+    <state width="1637" height="29" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.0.right" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1600048504620" />
-    <state width="1637" height="29" key="GridCell.Tab.1.bottom" timestamp="1600048516029">
+    <state width="1637" height="29" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.1.bottom" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1600048516029" />
-    <state width="1637" height="29" key="GridCell.Tab.1.center" timestamp="1600048516029">
+    <state width="1637" height="29" key="GridCell.Tab.1.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.1.center" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1600048516029" />
-    <state width="1637" height="29" key="GridCell.Tab.1.left" timestamp="1600048516029">
+    <state width="1637" height="29" key="GridCell.Tab.1.center/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.1.left" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1600048516029" />
-    <state width="1637" height="29" key="GridCell.Tab.1.right" timestamp="1600048516029">
+    <state width="1637" height="29" key="GridCell.Tab.1.left/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.1.right" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1600048516029" />
-    <state width="1637" height="29" key="GridCell.Tab.2.bottom" timestamp="1600048504494">
+    <state width="1637" height="29" key="GridCell.Tab.1.right/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.2.bottom" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.2.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1600048504494" />
-    <state width="1637" height="29" key="GridCell.Tab.2.center" timestamp="1600048504494">
+    <state width="1637" height="29" key="GridCell.Tab.2.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.2.center" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.2.center/0.0.1680.1010@0.0.1680.1010" timestamp="1600048504494" />
-    <state width="1637" height="29" key="GridCell.Tab.2.left" timestamp="1600048504494">
+    <state width="1637" height="29" key="GridCell.Tab.2.center/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.2.left" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.2.left/0.0.1680.1010@0.0.1680.1010" timestamp="1600048504494" />
-    <state width="1637" height="29" key="GridCell.Tab.2.right" timestamp="1600048504494">
+    <state width="1637" height="29" key="GridCell.Tab.2.left/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.2.right" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.2.right/0.0.1680.1010@0.0.1680.1010" timestamp="1600048504494" />
-    <state width="1637" height="29" key="GridCell.Tab.3.bottom" timestamp="1600048504494">
+    <state width="1637" height="29" key="GridCell.Tab.2.right/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.3.bottom" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.3.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1600048504494" />
-    <state width="1637" height="29" key="GridCell.Tab.3.center" timestamp="1600048504494">
+    <state width="1637" height="29" key="GridCell.Tab.3.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.3.center" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.3.center/0.0.1680.1010@0.0.1680.1010" timestamp="1600048504494" />
-    <state width="1637" height="29" key="GridCell.Tab.3.left" timestamp="1600048504494">
+    <state width="1637" height="29" key="GridCell.Tab.3.center/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.3.left" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.3.left/0.0.1680.1010@0.0.1680.1010" timestamp="1600048504494" />
-    <state width="1637" height="29" key="GridCell.Tab.3.right" timestamp="1600048504494">
+    <state width="1637" height="29" key="GridCell.Tab.3.left/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
+    <state width="1637" height="29" key="GridCell.Tab.3.right" timestamp="1600053506642">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="29" key="GridCell.Tab.3.right/0.0.1680.1010@0.0.1680.1010" timestamp="1600048504494" />
+    <state width="1637" height="29" key="GridCell.Tab.3.right/0.0.1680.1010@0.0.1680.1010" timestamp="1600053506642" />
     <state width="1637" height="150" key="GridCell.Tab.4.bottom" timestamp="1600037731051">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -479,10 +351,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state width="522" height="452" key="SwitcherDM/0.0.1680.1010@0.0.1680.1010" timestamp="1599772634619" />
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1600026796767">
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2" timestamp="1600049868137">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1600026796767" />
+    <state x="432" y="238" key="Vcs.Push.Dialog.v2/0.0.1680.1010@0.0.1680.1010" timestamp="1600049868137" />
     <state x="446" y="115" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599812546921">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -491,18 +363,18 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="383" y="234" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1680.1010@0.0.1680.1010" timestamp="1600043144926" />
-    <state x="518" y="238" width="644" height="534" key="find.popup" timestamp="1600045266116">
+    <state x="518" y="238" width="644" height="534" key="find.popup" timestamp="1600053436802">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="518" y="238" width="644" height="534" key="find.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1600045266116" />
+    <state x="518" y="238" width="644" height="534" key="find.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1600053436802" />
     <state x="496" y="233" key="run.anything.popup" timestamp="1600044525376">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="496" y="233" key="run.anything.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1600044525376" />
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1600048648981">
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup" timestamp="1600054151398">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1600048648981" />
+    <state x="503" y="217" width="672" height="678" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1600054151398" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -545,6 +417,46 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <condition expression="keyboard.isEscape" language="C#" />
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Input/QuitGameOnEscape.cs</url>
+          <line>20</line>
+          <properties documentPath="C:\Projects\Maze\Assets\Scripts\Systems\Gameplay\Input\QuitGameOnEscape.cs" initialLine="20">
+            <startOffsets>
+              <option value="609" />
+            </startOffsets>
+            <endOffsets>
+              <option value="641" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Meta/GoBackToMenuWhenGameOver.cs</url>
+          <line>27</line>
+          <properties documentPath="C:\Projects\Maze\Assets\Scripts\Systems\Gameplay\Meta\GoBackToMenuWhenGameOver.cs" initialLine="27">
+            <startOffsets>
+              <option value="923" />
+            </startOffsets>
+            <endOffsets>
+              <option value="961" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Systems/Gameplay/Meta/SaveResultsWhenGameEnds.cs</url>
+          <line>43</line>
+          <properties documentPath="C:\Projects\Maze\Assets\Scripts\Systems\Gameplay\Meta\SaveResultsWhenGameEnds.cs" initialLine="43">
+            <startOffsets>
+              <option value="1401" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1424" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

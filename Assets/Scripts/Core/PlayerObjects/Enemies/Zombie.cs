@@ -20,8 +20,7 @@ namespace Core.PlayerObjects.Enemies
         {
             base.OnStart();
             Entity
-                .AddWalkSpeed(50f)
-                .AddTarget(Vector3.zero)
+                .AddWalkSpeed(1f)
                 .With(x => x.isZombie = true)
                 .With(x => x.isEnemy = true);
         }

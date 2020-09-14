@@ -19,9 +19,9 @@ namespace Core.PlayerObjects.Scenery
             Build(map);
 
             Entity
-                .With(x => x.SpawnsCoins = true)
                 .With(x => x.isMap = true)
                 .With(x => x.isMapBuilded = true)
+                .With(x => x.SpawnsCoins = true)
                 .AddPosition(transform.position)
                 .AddTransform(transform)
                 .AddMaxCoinCount(10)

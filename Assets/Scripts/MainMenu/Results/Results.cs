@@ -36,7 +36,7 @@ namespace MainMenu.Results
                         Converters = { new IsoDateTimeConverter() }
                     });
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     Debug.LogError("Could not deserialize results.");
                 }

@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using Entitas;
 using MainMenu.Results;
-using static MainMenu.Results.GameEndReason;
 
 namespace Systems.Gameplay.Statistics
 {
@@ -32,8 +31,8 @@ namespace Systems.Gameplay.Statistics
         {
             var reason =
                 game.isQuit || game.isOnApplicationQuit
-                    ? ApplicationQuit
-                    : Death;
+                    ? GameEndReason.ApplicationQuit
+                    : GameEndReason.Death;
             
             var result = Result.New()
                 .WithScore(game.Score)
@@ -41,6 +40,8 @@ namespace Systems.Gameplay.Statistics
                 .WithTimeSpent(meta.TimeSpent);
             
             Results.Add(result);
+
+            game.isGameOver = true;
         }
     }
 }

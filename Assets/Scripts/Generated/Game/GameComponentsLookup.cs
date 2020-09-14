@@ -22,42 +22,43 @@ public static class GameComponentsLookup {
     public const int GameOver = 11;
     public const int Ground = 12;
     public const int HasCoin = 13;
-    public const int Map = 14;
-    public const int MapBuilded = 15;
-    public const int MaxCoinCount = 16;
-    public const int MoveComplete = 17;
-    public const int Moving = 18;
-    public const int Mummy = 19;
-    public const int OnApplicationQuit = 20;
-    public const int Picked = 21;
-    public const int Player = 22;
-    public const int Position = 23;
-    public const int PreviousPosition = 24;
-    public const int Quit = 25;
-    public const int Rigidbody = 26;
-    public const int SaveResults = 27;
-    public const int Score = 28;
-    public const int SpawnCoin = 29;
-    public const int SpawnMummy = 30;
-    public const int SpawnsCoins = 31;
-    public const int SpawnZombie = 32;
-    public const int StoppedMoving = 33;
-    public const int Target = 34;
-    public const int Text = 35;
-    public const int Tilemap = 36;
-    public const int Time = 37;
-    public const int Transform = 38;
-    public const int WalkSpeed = 39;
-    public const int Wall = 40;
-    public const int WorldPosition = 41;
-    public const int Zombie = 42;
-    public const int DestructedListener = 43;
-    public const int DirectionListener = 44;
-    public const int MovingListener = 45;
-    public const int PositionListener = 46;
-    public const int StoppedMovingListener = 47;
+    public const int HitByMummy = 14;
+    public const int Map = 15;
+    public const int MapBuilded = 16;
+    public const int MaxCoinCount = 17;
+    public const int MoveComplete = 18;
+    public const int Moving = 19;
+    public const int Mummy = 20;
+    public const int OnApplicationQuit = 21;
+    public const int Picked = 22;
+    public const int Player = 23;
+    public const int Position = 24;
+    public const int PreviousPosition = 25;
+    public const int Quit = 26;
+    public const int Rigidbody = 27;
+    public const int SaveResults = 28;
+    public const int Score = 29;
+    public const int SpawnCoin = 30;
+    public const int SpawnMummy = 31;
+    public const int SpawnsCoins = 32;
+    public const int SpawnZombie = 33;
+    public const int StoppedMoving = 34;
+    public const int Target = 35;
+    public const int Text = 36;
+    public const int Tilemap = 37;
+    public const int Time = 38;
+    public const int Transform = 39;
+    public const int WalkSpeed = 40;
+    public const int Wall = 41;
+    public const int WorldPosition = 42;
+    public const int Zombie = 43;
+    public const int DestructedListener = 44;
+    public const int DirectionListener = 45;
+    public const int MovingListener = 46;
+    public const int PositionListener = 47;
+    public const int StoppedMovingListener = 48;
 
-    public const int TotalComponents = 48;
+    public const int TotalComponents = 49;
 
     public static readonly string[] componentNames = {
         "BoxCollider2D",
@@ -74,6 +75,7 @@ public static class GameComponentsLookup {
         "GameOver",
         "Ground",
         "HasCoin",
+        "HitByMummy",
         "Map",
         "MapBuilded",
         "MaxCoinCount",
@@ -125,6 +127,7 @@ public static class GameComponentsLookup {
         typeof(Components.GameOver),
         typeof(Components.Ground),
         typeof(Components.HasCoin),
+        typeof(Components.HitByMummy),
         typeof(Components.Map),
         typeof(Components.MapBuilded),
         typeof(Components.MaxCoinCount),
